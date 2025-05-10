@@ -10,10 +10,9 @@ export function HeroSection() {
             <div className="space-y-2">
                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
  Welcome to Our Coffee Shop</h1>
-               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
- Welcome to Our Coffee Shop</h1>
+
                <p className="max-w-[600px] text-muted-foreground md:text-xl">
- Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.
+
                </p>
              </div>
              <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -46,4 +45,4 @@ export function HeroSection() {
      </section>
    );
 }
-}
+
