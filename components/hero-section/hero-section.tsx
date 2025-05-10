@@ -29,10 +29,10 @@ Find Us
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                  <img
+                    src="/api/placeholder.svg?height=400&width=600"
+                    alt="Coffee Shop"
+                    className="rounded-lg shadow-md"
+                  />
   );
 }
