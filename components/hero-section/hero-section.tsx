@@ -9,21 +9,15 @@ export function HeroSection() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                The Future of Web Development
-              </h1>
+Welcome to Our Coffee Shop
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Build beautiful, accessible, and performant web applications
-                with the power of modern tools and libraries.
-              </p>
+Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button size="lg" className="gap-1.5">
-                Get Started
-                <ArrowRight className="h-4 w-4" />
+View Menu
               </Button>
-              <Button size="lg" variant="outline">
-                Learn More
-              </Button>
+Find Us
             </div>
           </div>
           <div className="hidden lg:flex items-center justify-center">
