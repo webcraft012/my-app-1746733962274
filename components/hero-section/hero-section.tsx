@@ -10,35 +10,40 @@ export function HeroSection() {
             <div className="space-y-2">
                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
  Welcome to Our Coffee Shop</h1>
-Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.</p>
-Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.
-            </div>
-            <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button size="lg" className="gap-1.5">
-View Menu
-              </Button>
-Find Us</Button>
-            </div>
-          </div>
-          <div className="hidden lg:flex items-center justify-center">
-            <div className="relative h-full w-full">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border border-border p-1">
-                <div className="h-full w-full rounded-lg bg-background flex items-center justify-center">
-                  <div className="text-4xl font-bold text-foreground/50">
-                    Your Image Here
-                  </div>
-                </div>
-              </div>
-                  <img
-                    src="/api/placeholder.svg?height=400&width=600"
-                    alt="Coffee Shop"
-                    className="rounded-lg shadow-md"
-                   />
+               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+ Welcome to Our Coffee Shop</h1>
+               <p className="max-w-[600px] text-muted-foreground md:text-xl">
+ Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.
+               </p>
+             </div>
+             <div className="flex flex-col gap-2 min-[400px]:flex-row">
+               <Button size="lg" className="gap-1.5">
+ View Menu
+               </Button>
+               <Button size="lg" variant="outline" className="gap-1.5">
+ Find Us
+               </Button>
+             </div>
+           </div>
+           <div className="hidden lg:flex items-center justify-center">
+             <div className="relative h-full w-full">
+               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border border-border p-1">
+                 <div className="h-full w-full rounded-lg bg-background flex items-center justify-center">
+                   <div className="text-4xl font-bold text-foreground/50">
+                     Your Image Here
+                   </div>
+                 </div>
                </div>
+                   <img
+                     src="/api/placeholder.svg?height=400&width=600"
+                     alt="Coffee Shop"
+                     className="rounded-lg shadow-md"
+                   />
              </div>
            </div>
          </div>
        </div>
      </section>
    );
+}
 }
