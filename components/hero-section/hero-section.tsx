@@ -8,16 +8,16 @@ export function HeroSection() {
         <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-Welcome to Our Coffee Shop
-              <p className="max-w-[600px] text-muted-foreground md:text-xl">
+               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
+ Welcome to Our Coffee Shop</h1>
+Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.</p>
 Experience the perfect blend of coffee and community. We offer a wide variety of coffee drinks, pastries, and more.
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button size="lg" className="gap-1.5">
 View Menu
               </Button>
-Find Us
+Find Us</Button>
             </div>
           </div>
           <div className="hidden lg:flex items-center justify-center">
@@ -33,6 +33,12 @@ Find Us
                     src="/api/placeholder.svg?height=400&width=600"
                     alt="Coffee Shop"
                     className="rounded-lg shadow-md"
-                  />
-  );
+                   />
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+   );
 }
