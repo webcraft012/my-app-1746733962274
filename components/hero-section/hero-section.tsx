@@ -9,16 +9,15 @@ export function HeroSection() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                The Future of Web Development
+                Discover Our Featured Products
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                Build beautiful, accessible, and performant web applications
-                with the power of modern tools and libraries.
+                Explore our hand-picked selection of health and wellness essentials.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
               <Button size="lg" className="gap-1.5">
-                Get Started
+                Shop Now
                 <ArrowRight className="h-4 w-4" />
               </Button>
               <Button size="lg" variant="outline">
@@ -31,7 +30,8 @@ export function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-lg border border-border p-1">
                 <div className="h-full w-full rounded-lg bg-background flex items-center justify-center">
                   <div className="text-4xl font-bold text-foreground/50">
-                    Your Image Here
+                  <div className="text-4xl font-bold text-foreground/50">
+                    Featured Product Image
                   </div>
                 </div>
               </div>
