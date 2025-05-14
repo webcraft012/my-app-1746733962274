@@ -60,7 +60,29 @@ const CheckoutPage = () => {
         </div>
       </div>
 
-      {/* Future: Shipping Method, Payment Method, Order Summary, Place Order button */}
+        </div>
+      </div>
+
+      <div className="mt-8">
+        <h3 className="text-2xl font-semibold mb-4">Shipping Method</h3>
+        <div className="flex items-center space-x-4">
+          <label>
+            <input type="radio" name="shippingMethod" value="standard" className="mr-2" />
+            Standard Shipping (3-5 days)
+          </label>
+          <label>
+            <input type="radio" name="shippingMethod" value="express" className="mr-2" />
+            Express Shipping (1-2 days)
+          </label>
+        </div>
+      </div>
+
+      {/* Future: Payment Method, Order Summary, Place Order button */}
+    </div>
+  );
+};
+
+export default CheckoutPage;
     </div>
   );
 };
