@@ -2,7 +2,8 @@ import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import IframeEventHandler from "@/components/IframeEventHandler";
-import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import { CartProvider } from "@/lib/store/cart-context";
 import Footer from "@/components/Footer";
 
 const inter = Inter({
@@ -20,9 +21,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <CartProvider>
+          <Header />
     <html lang="en" className={inter.variable}>
-<body className="min-h-screen bg-background font-sans antialiased">
+        </CartProvider>
+        <IframeEventHandler />
         <Header />
 {children}
         <Footer />
