@@ -58,6 +58,7 @@ const CheckoutPage = () => {
         </div>
       </div>
 
+
   return (
     <div className="container mx-auto py-8">
       <h2 className="text-3xl font-bold mb-6">Checkout</h2>
@@ -122,4 +123,4 @@ const CheckoutPage = () => {
       </div>
     </div>
   );
-export default CheckoutPage;
+
